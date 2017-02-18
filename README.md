@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Grumbel/jstest-gtk.svg?branch=master)](https://travis-ci.org/Grumbel/jstest-gtk)
+[![Build Status](https://travis-ci.org/ingvald/jstest-gtk.svg?branch=master)](https://travis-ci.org/ingvald/jstest-gtk)
 
 jstest-gtk
 ==========
