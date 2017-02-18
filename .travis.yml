@@ -32,7 +32,7 @@ matrix:
 
 before_install:
   - if [ "$CXX" = "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
-  - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.9" CC="clang-3.9"; fi
+  - if [ "$CXX" == "clang++" ]; then export CXX="clang++-4.0" CC="clang-4.0"; fi
 
 script:
   - git clean -f
@@ -49,7 +49,7 @@ addons:
     packages:
     - build-essential
     - cmake
-    - clang-3.9
+    - clang-4.0
     - g++-4.9
     - libgtkmm-2.4-dev
     - libsigc++-2.0-dev
