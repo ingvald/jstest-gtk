@@ -49,7 +49,7 @@ addons:
     packages:
     - build-essential
     - cmake
-    - clang-4.0
+    - clang-3.9
     - g++-4.9
     - libgtkmm-2.4-dev
     - libsigc++-2.0-dev
